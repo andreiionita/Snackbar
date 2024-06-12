@@ -1,0 +1,26 @@
+<?xml version="1.0"
+      encoding="utf-8"?>
+
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:snackbar="clr-namespace:Snackbar.Snackbar"
+             x:Class="Snackbar.SecondPage"
+             x:Name="This">
+	<ContentPage.Content>
+		<!-- <Grid> -->
+		<snackbar:SnackbarContainer>
+			<VerticalStackLayout HorizontalOptions="Fill">
+				<Image Source="dotnet_bot.png"
+				       HeightRequest="185"
+				       Aspect="AspectFit"/>
+
+				<Label Text="Second page"
+				       TextColor="MidnightBlue"
+				       FontSize="24"
+				       HorizontalOptions="Center"
+				       VerticalOptions="Center"/>
+			</VerticalStackLayout>
+		</snackbar:SnackbarContainer>
+		<!-- </Grid> -->
+	</ContentPage.Content>
+</ContentPage>
